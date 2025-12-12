@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['boar']
+
+roboflow:
+  workspace: sentinent-ai
+  project: wildboar-4o6fa
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/sentinent-ai/wildboar-4o6fa/dataset/3
