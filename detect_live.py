@@ -5,7 +5,7 @@ model = YOLO("runs/detect/train/weights/best.pt")
 
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
-    print("❌ No se pudo abrir la cámara")
+    print("No se pudo abrir la cámara")
     exit()
 
 while True:
